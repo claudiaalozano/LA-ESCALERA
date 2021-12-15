@@ -22,7 +22,7 @@ matrix = []
 matrix.append("a")
 
 for k in range(n):
-    matrix = matrix.append("a")
+    matrix.append("a")
 
 print(matrix)
 
