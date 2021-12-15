@@ -10,7 +10,7 @@
 #print(ESCALERA)
 from random import randint
 
-n = randint(5,10)
+n = int(input("Elija el tamaño de la escalera:"))
 
 #matriz = [ ["a"], ["a"], ["a"]]
 
@@ -22,9 +22,9 @@ for k in range(n):
 
 print(matrix)
 
-b = ""
+b = " "
 
-for k in range(n):
-    for j in range(n):
-        b += str(matrix[k][j])+"\t"
+for k in range(3):
+    for j in range(1):
+        b += str(matrix[k][j])+ "\t"
     print(b)
