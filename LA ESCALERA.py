@@ -12,11 +12,7 @@ from random import randint
 
 n = randint(5,10)
 
-matriz = [
-    ["a"],
-    ["a"],
-    ["a"],
-]
+#matriz = [ ["a"], ["a"], ["a"]]
 
 matrix = []
 matrix.append("a")
@@ -26,12 +22,9 @@ for k in range(n):
 
 print(matrix)
 
-
-print(matrix)
-
 b = ""
 
-for k in range(3):
-    for j in range(1):
-        b += str(matriz[k][j])+"\t"
+for k in range(n):
+    for j in range(n):
+        b += str(matrix[k][j])+"\t"
     print(b)
