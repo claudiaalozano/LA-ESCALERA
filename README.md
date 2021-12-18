@@ -24,4 +24,5 @@ for k in range(n):
     for j in range(1):
         b += str(matrix[k][j])+ "\t"
     print(b)
-    ```
+   
+   ```
